@@ -24,7 +24,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-arbol-de-te.jpg",
         "precio": 8,
-        "stock": 10
+        "stock": 5
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-bergamota.jpg",
         "precio": 6,
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-canela.jpg",
         "precio": 7,
-        "stock": 10
+        "stock": 16
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-hinojo.jpg",
         "precio": 7.4,
-        "stock": 10
+        "stock": 8
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-lavanda-1.jpg",
         "precio": 6.5,
-        "stock": 10
+        "stock": 9
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-naranja-1.jpg",
         "precio": 5,
-        "stock": 10
+        "stock": 23
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-jengibre-1.jpg",
         "precio": 12,
-        "stock": 10
+        "stock": 12
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-limon-1.jpg",
         "precio": 11,
-        "stock": 10
+        "stock": 11
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-mandarina-1.jpg",
         "precio": 8,
-        "stock": 10
+        "stock": 6
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "categoria": "Aceites",
         "imagen": "/src/assets/img/Productos/aceite-esencial-manzanilla-1.jpg",
         "precio": 9,
-        "stock": 10
+        "stock": 8
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "categoria": "Lociones",
         "imagen": "/src/assets/img/Productos/aceite-corporal-celulitis-1.jpg",
         "precio": 15.5,
-        "stock": 10
+        "stock": 4
     },
     {
         "id": 14,
@@ -132,7 +132,7 @@
         "categoria": "Lociones",
         "imagen": "/src/assets/img/Productos/aceite-corporal-hidratante-1.jpg",
         "precio": 18,
-        "stock": 10
+        "stock": 19
     },
     {
         "id": 16,
@@ -141,7 +141,7 @@
         "categoria": "Lociones",
         "imagen": "/src/assets/img/Productos/aceite-corporal-piernas-relax.jpg",
         "precio": 17.5,
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 17,
@@ -150,7 +150,7 @@
         "categoria": "Lociones",
         "imagen": "/src/assets/img/Productos/aceite-corporal-relajante-1.jpg",
         "precio": 15,
-        "stock": 10
+        "stock": 12
     },
     {
         "id": 18,
@@ -159,7 +159,7 @@
         "categoria": "Lociones",
         "imagen": "/src/assets/img/Productos/aceite-corporal-sensual-1.jpg",
         "precio": 16,
-        "stock": 10
+        "stock": 17
     },
     {
         "id": 19,
@@ -168,7 +168,7 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-geranio.jpg",
         "precio": 15,
-        "stock": 10
+        "stock": 18
     },
     {
         "id": 20,
@@ -177,7 +177,7 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-hisopo-2.jpg",
         "precio": 13,
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 21,
@@ -186,7 +186,7 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-manzanilla.jpg",
         "precio": 14,
-        "stock": 10
+        "stock": 7
     },
     {
         "id": 22,
@@ -195,7 +195,7 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-mejorana-1.jpg",
         "precio": 12.5,
-        "stock": 10
+        "stock": 4
     },
     {
         "id": 23,
@@ -204,7 +204,7 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-menta.jpg",
         "precio": 15,
-        "stock": 10
+        "stock": 8
     },
     {
         "id": 24,
@@ -213,6 +213,6 @@
         "categoria": "Aguas",
         "imagen": "/src/assets/img/Productos/agua-floral-romero.jpg",
         "precio": 16,
-        "stock": 10
+        "stock": 9
     }
 ]
