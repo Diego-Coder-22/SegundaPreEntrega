@@ -12,7 +12,67 @@
     --ff-title: "Bricolage Grotesque", sans-serif;
     --ff-text: "Rubik", sans-serif;
 }
+:link{
+    text-decoration: none;
+    color: #24262b;
+}
+.hero {
+    position: relative;
+    background-image: url(src/assets/img/INDEX-PC-INVIERNO.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .hero-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: var(--ff-text);
+    color: #24262b;
+  }
+  .hero-text h2{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .hero-text button{ 
+    margin-top:6rem ;
+  }
+  .text-container {
+    width: 50%;
+  }
+.section-content-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: var(--ff-text);
+    color: #24262b;
+}
 
+.section-content-text h2{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+.section-bottom{
+    margin-top: 2rem;
+}
+.section-bottom-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: var(--ff-text);
+    color: #24262b;
+}
 .container {
     max-width: 1140px;
     padding-inline: 1.5rem;
@@ -23,6 +83,7 @@
 
 .main-title {
     margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-family: var(--ff-title);
     font-size: 2rem;
@@ -153,7 +214,7 @@
 }
 
 .producto .ver-mas:hover {
-    background-color: black;
+    background-color: #24262b;
     color: var(--clr-main);
     transform: scale(1.1);
 }
@@ -219,7 +280,7 @@
 
 .item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
     background-color: var(--clr-main);
-    color: black;
+    color: #24262b;
     border: 2px solid var(--clr-main-light);
 }
 .item-count-add{
@@ -228,6 +289,158 @@
 .agregar-al-carrito, .enviar {
     width: auto;
     height: auto;
-    margin: 1rem 0rem 0rem 1rem;
-    padding: .7rem;
+    padding: .5rem;
 }
+.producto-carrito{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.producto-carrito h3{
+    display: flex;
+    width: 10rem;
+    color: var(--clr-main-light);
+}
+.producto-carrito img{
+    width: 10rem;
+}
+.precio-total{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.precio-total h2{
+    margin-left: 1rem;
+}
+.carrito-button{
+    display: flex;
+    gap: 3rem;
+    
+}
+.carrito-button a{
+    color: #24262b;
+}
+.carrito-icon{
+    width: 2rem;
+    height: 2.1rem;
+}
+.vaciar{
+    background-color: var(--clr-main);
+    border: 0;
+    width: 2rem;
+    height: 2.2rem;
+    color: #24262b;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 2px solid var(--clr-main-light);
+    transition: .2s;
+}
+.vaciar:hover{
+    background-color: var(--clr-main-light);
+    color: var(--clr-main);
+    border: 2px solid var(--clr-main);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    align-items: flex-start;
+}
+
+.formulario input, textarea {
+    padding:.7rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: .125rem solid #24262b;
+}
+
+.formulario input:focus, textarea:focus {
+    outline: 0;
+    border: .125rem solid var(--clr-main);
+    outline: .125rem solid var(--clr-main-light);
+}
+
+.container-footer {
+    max-width: 1140px;
+    padding-inline: 1.5rem;
+    margin: 0 auto;
+    font-family: var(--ff-text);
+    color: var(--clr-main-light);
+}
+.container-footer p{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: .8rem;
+    text-align: center;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 4.4rem 0;
+    margin-top: 5rem;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 1rem;
+}
+.footer-col h4{
+	font-size: 1.2rem;
+	color: var(--clr-main-light);
+	text-transform: capitalize;
+	margin-bottom: 2.2rem;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -.65rem;
+	background-color: #e91e63;
+	height: .125rem;
+	box-sizing: border-box;
+	width: 3rem;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: var(--clr-main-light);
+	text-decoration: none;
+	font-weight: 300;
+	color: var(--clr-main);
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:var(--clr-main-light);
+	padding-left: .5rem;
+}
+.footer-col .social-links a img{
+    display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 .65rem .65rem 0;
+	text-align: center;
+	line-height: 2.5rem;
+	border-radius: 50%;
+	color: var(--clr-main-light);
+	transition: all 0.5s ease;
+}
+
